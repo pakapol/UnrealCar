@@ -1,0 +1,9 @@
+{
+	"Changelist" : 3561208,
+	"CompatibleChangelist" : 3452394,
+	"BuildId" : "2988d4f2-4b84-4ae7-991b-4b1829d91fed",
+	"Modules" : 
+	{
+		"car" : "UE4Editor-car.dylib"
+	}
+}

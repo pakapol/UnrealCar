@@ -1,0 +1,2821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B598FEA846B56A21864682FE /* car.uproject in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* car.uproject */; };
+		102446793638E1E773194BBB /* car.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 940AC694D607EE88F16DFF10 /* car.Target.cs */; };
+		39A799C779365B4E9F469821 /* carEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9 /* carEditor.Target.cs */; };
+		91F6DDE87770C5A225363F8F /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */; };
+		1CA02256E208777020EF3683 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */; };
+		A809639E31D6FCBE8571C860 /* MainSceneActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3291B7F8768100B92BC18582 /* MainSceneActor.cpp */; };
+		7E4278E2A5446F9E6FADE4BB /* MainSceneActor.h in Sources */ = {isa = PBXBuildFile; fileRef = C11007BE02998D1703F0DA77 /* MainSceneActor.h */; };
+		C1FE66727A0B20E783E120EF /* car.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5D191940012AF084ACFC3766 /* car.Build.cs */; };
+		7942B691336E7F8D670121A7 /* car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDFD24638DFD37E0EF1860E9 /* car.cpp */; };
+		804C15D8FF55CAC4C600F837 /* car.h in Sources */ = {isa = PBXBuildFile; fileRef = 558EB3156192875CF8726303 /* car.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10E4841AB4578BB4EF66F8B7 /* car.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "car.uproject"; path = "../../car.uproject"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* car.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "car.Target.cs"; path = "../../Source/car.Target.cs"; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* carEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "carEditor.Target.cs"; path = "../../Source/carEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		3291B7F8768100B92BC18582 /* MainSceneActor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MainSceneActor.cpp"; path = "../../Source/car/MainSceneActor.cpp"; sourceTree = SOURCE_ROOT; };
+		C11007BE02998D1703F0DA77 /* MainSceneActor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MainSceneActor.h"; path = "../../Source/car/MainSceneActor.h"; sourceTree = SOURCE_ROOT; };
+		5D191940012AF084ACFC3766 /* car.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "car.Build.cs"; path = "../../Source/car/car.Build.cs"; sourceTree = SOURCE_ROOT; };
+		DDFD24638DFD37E0EF1860E9 /* car.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "car.cpp"; path = "../../Source/car/car.cpp"; sourceTree = SOURCE_ROOT; };
+		558EB3156192875CF8726303 /* car.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "car.h"; path = "../../Source/car/car.h"; sourceTree = SOURCE_ROOT; };
+		A70058321586847C9B8D06A4 /* car */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = car; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3FD147C9388D81E0433DF8 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A809639E31D6FCBE8571C860 /* MainSceneActor.cpp in Sources */,
+				7942B691336E7F8D670121A7 /* car.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		E9712165F9578579DF6E50C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C2B69A0EF33AAECE280A5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BE7732D67756CCD25C0AFD;
+			remoteInfo = "car_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		80BAE8974F80AD8D3D7B9D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BE7732D67756CCD25C0AFD /* car_Build */;
+			targetProxy = E9712165F9578579DF6E50C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		5C16FBE535A459CD04EF5133 = {
+			isa = PBXGroup;
+			children = (
+				9150CD26DC63724CB2D7D7DF /* Source */,
+				49EFEAC67F20CA9822820E2A /* Config */,
+				10E4841AB4578BB4EF66F8B7 /* car.uproject */,
+				6A484D7842E36CB748486777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9150CD26DC63724CB2D7D7DF = {
+			isa = PBXGroup;
+			children = (
+				5D9B3B68233BE8EDA7664AC0 /* car */,
+				940AC694D607EE88F16DFF10 /* car.Target.cs */,
+				6EF1EB4E659A8BF798C986A9 /* carEditor.Target.cs */,
+			);
+			name = "Source";
+			path = "Source";
+			sourceTree = "<group>";
+		};
+		5D9B3B68233BE8EDA7664AC0 = {
+			isa = PBXGroup;
+			children = (
+				3291B7F8768100B92BC18582 /* MainSceneActor.cpp */,
+				C11007BE02998D1703F0DA77 /* MainSceneActor.h */,
+				5D191940012AF084ACFC3766 /* car.Build.cs */,
+				DDFD24638DFD37E0EF1860E9 /* car.cpp */,
+				558EB3156192875CF8726303 /* car.h */,
+			);
+			name = "car";
+			path = "Source/car";
+			sourceTree = "<group>";
+		};
+		49EFEAC67F20CA9822820E2A = {
+			isa = PBXGroup;
+			children = (
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */,
+			);
+			name = "Config";
+			path = "Config";
+			sourceTree = "<group>";
+		};
+		6A484D7842E36CB748486777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A70058321586847C9B8D06A4 /* car */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D3BE7732D67756CCD25C0AFD /* car_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/pakapol/projects/UE/car/car.uproject\"";
+			buildConfigurationList = BB8C20C2C6007E126A25EF4E /* Build configuration list for PBXLegacyTarget "car_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_4.16/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_4.16";
+			dependencies = (
+			);
+			name = "car_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "car_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C815EA865FBC56C7B2830594 /* car */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476FDAF46EDCF21A194B7A5D /* Build configuration list for PBXNativeTarget "car" */;
+			buildPhases = (
+			);
+			dependencies = (
+				80BAE8974F80AD8D3D7B9D7E /* PBXTargetDependency */,
+			);
+			name = "car";
+			passBuildSettingsInEnvironment = 1;
+			productName = "car";
+			productReference = "A70058321586847C9B8D06A4";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		287B78B7F621E25C6B7C913B /* car_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF53A3671784F04BF55B7688 /* Build configuration list for PBXNativeTarget "car_Index" */;
+			buildPhases = (
+				AE3FD147C9388D81E0433DF8 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "car_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "car_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C2B69A0EF33AAECE280A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					C815EA865FBC56C7B2830594 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FF9FD5B079AE913EFBE4E273 /* Build configuration list for PBXProject "car" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 5C16FBE535A459CD04EF5133;
+			productRefGroup = 6A484D7842E36CB748486777;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			C815EA865FBC56C7B2830594 /* car */,
+			D3BE7732D67756CCD25C0AFD /* car_Build */,
+			287B78B7F621E25C6B7C913B /* car_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F854792ACF3D560F4EA14531 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=0",
+					"UE_EDITOR=1",
+					"HAS_METAL=1",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"WITH_CEF3=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-car.dylib",
+					"UE_IS_ENGINE_MODULE=0",
+					"UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0",
+					"UE_PROJECT_NAME=car",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"CAR_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					"WITH_APEX_CLOTHING=1",
+					"WITH_CLOTH_COLLISION_DETECTION=1",
+					"WITH_PHYSICS_COOKING=1",
+					"WITH_NVCLOTH=1",
+					"WITH_RUNTIME_PHYSICS_COOKING=1",
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"WITH_UNREALPNG=1",
+					"WITH_UNREALJPEG=1",
+					"WITH_UNREALEXR=1",
+					"IMAGEWRAPPER_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"UTILITYSHADERS_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"GAMEPLAYTAGS_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCE_CONTROL_WITH_SLATE=1",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"WITH_SSL=0",
+					"WITH_LIBCURL=0",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"LOCALIZATION_API=",
+					"AUDIOEDITOR_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"USERFEEDBACK_API=",
+					"INTROTUTORIALS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"LANDSCAPE_API=",
+					"PROPERTYEDITOR_API=",
+					"ACTORPICKERMODE_API=",
+					"SCENEDEPTHPICKERMODE_API=",
+					"DETAILCUSTOMIZATIONS_API=",
+					"CLASSVIEWER_API=",
+					"GRAPHEDITOR_API=",
+					"CONTENTBROWSER_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"USE_EMBREE=1",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"NETWORKREPLAYSTREAMING_API=",
+					"AUDIOMIXER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source",
+					"../../Source",
+					"../Build/Mac/UE4Editor/Inc/car",
+					"../../Source/car",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Brushes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Fonts",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Sound",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Textures",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Types",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Commands",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MetaData",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Images",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Deprecated",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Helpers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/AutoReimport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Commandlets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Dialogs",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/DragAndDrop",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Kismet2",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Layers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Toolkits",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public/Customizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetNodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetPins",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/ThirdParty/IntelEmbree/Embree2140/MacOSX/include",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Nodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Profiler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/Components",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/DSP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		3B7509B5182949751D8358BE /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=0",
+					"UE_EDITOR=1",
+					"HAS_METAL=1",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"WITH_CEF3=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-car.dylib",
+					"UE_IS_ENGINE_MODULE=0",
+					"UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0",
+					"UE_PROJECT_NAME=car",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"CAR_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					"WITH_APEX_CLOTHING=1",
+					"WITH_CLOTH_COLLISION_DETECTION=1",
+					"WITH_PHYSICS_COOKING=1",
+					"WITH_NVCLOTH=1",
+					"WITH_RUNTIME_PHYSICS_COOKING=1",
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"WITH_UNREALPNG=1",
+					"WITH_UNREALJPEG=1",
+					"WITH_UNREALEXR=1",
+					"IMAGEWRAPPER_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"UTILITYSHADERS_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"GAMEPLAYTAGS_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCE_CONTROL_WITH_SLATE=1",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"WITH_SSL=0",
+					"WITH_LIBCURL=0",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"LOCALIZATION_API=",
+					"AUDIOEDITOR_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"USERFEEDBACK_API=",
+					"INTROTUTORIALS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"LANDSCAPE_API=",
+					"PROPERTYEDITOR_API=",
+					"ACTORPICKERMODE_API=",
+					"SCENEDEPTHPICKERMODE_API=",
+					"DETAILCUSTOMIZATIONS_API=",
+					"CLASSVIEWER_API=",
+					"GRAPHEDITOR_API=",
+					"CONTENTBROWSER_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"USE_EMBREE=1",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"NETWORKREPLAYSTREAMING_API=",
+					"AUDIOMIXER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source",
+					"../../Source",
+					"../Build/Mac/UE4Editor/Inc/car",
+					"../../Source/car",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Brushes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Fonts",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Sound",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Textures",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Types",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Commands",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MetaData",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Images",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Deprecated",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Helpers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/AutoReimport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Commandlets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Dialogs",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/DragAndDrop",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Kismet2",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Layers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Toolkits",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public/Customizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetNodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetPins",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/ThirdParty/IntelEmbree/Embree2140/MacOSX/include",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Nodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Profiler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/Components",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/DSP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame Editor";
+		};
+		AAABBEDC7ADD162CC7D371F8 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=0",
+					"UE_EDITOR=1",
+					"HAS_METAL=1",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"WITH_CEF3=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-car.dylib",
+					"UE_IS_ENGINE_MODULE=0",
+					"UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0",
+					"UE_PROJECT_NAME=car",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"CAR_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					"WITH_APEX_CLOTHING=1",
+					"WITH_CLOTH_COLLISION_DETECTION=1",
+					"WITH_PHYSICS_COOKING=1",
+					"WITH_NVCLOTH=1",
+					"WITH_RUNTIME_PHYSICS_COOKING=1",
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"WITH_UNREALPNG=1",
+					"WITH_UNREALJPEG=1",
+					"WITH_UNREALEXR=1",
+					"IMAGEWRAPPER_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"UTILITYSHADERS_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"GAMEPLAYTAGS_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCE_CONTROL_WITH_SLATE=1",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"WITH_SSL=0",
+					"WITH_LIBCURL=0",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"LOCALIZATION_API=",
+					"AUDIOEDITOR_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"USERFEEDBACK_API=",
+					"INTROTUTORIALS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"LANDSCAPE_API=",
+					"PROPERTYEDITOR_API=",
+					"ACTORPICKERMODE_API=",
+					"SCENEDEPTHPICKERMODE_API=",
+					"DETAILCUSTOMIZATIONS_API=",
+					"CLASSVIEWER_API=",
+					"GRAPHEDITOR_API=",
+					"CONTENTBROWSER_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"USE_EMBREE=1",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"NETWORKREPLAYSTREAMING_API=",
+					"AUDIOMIXER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source",
+					"../../Source",
+					"../Build/Mac/UE4Editor/Inc/car",
+					"../../Source/car",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Brushes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Fonts",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Sound",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Textures",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Types",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Commands",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MetaData",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Images",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Deprecated",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Helpers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/AutoReimport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Commandlets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Dialogs",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/DragAndDrop",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Kismet2",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Layers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Toolkits",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public/Customizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetNodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetPins",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/ThirdParty/IntelEmbree/Embree2140/MacOSX/include",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Nodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Profiler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/Components",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/DSP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		EEDC5DC394EA6CE9F40ECD36 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=0",
+					"UE_EDITOR=1",
+					"HAS_METAL=1",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"WITH_CEF3=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-car.dylib",
+					"UE_IS_ENGINE_MODULE=0",
+					"UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0",
+					"UE_PROJECT_NAME=car",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"CAR_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					"WITH_APEX_CLOTHING=1",
+					"WITH_CLOTH_COLLISION_DETECTION=1",
+					"WITH_PHYSICS_COOKING=1",
+					"WITH_NVCLOTH=1",
+					"WITH_RUNTIME_PHYSICS_COOKING=1",
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"WITH_UNREALPNG=1",
+					"WITH_UNREALJPEG=1",
+					"WITH_UNREALEXR=1",
+					"IMAGEWRAPPER_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"UTILITYSHADERS_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"GAMEPLAYTAGS_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCE_CONTROL_WITH_SLATE=1",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"WITH_SSL=0",
+					"WITH_LIBCURL=0",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"LOCALIZATION_API=",
+					"AUDIOEDITOR_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"USERFEEDBACK_API=",
+					"INTROTUTORIALS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"LANDSCAPE_API=",
+					"PROPERTYEDITOR_API=",
+					"ACTORPICKERMODE_API=",
+					"SCENEDEPTHPICKERMODE_API=",
+					"DETAILCUSTOMIZATIONS_API=",
+					"CLASSVIEWER_API=",
+					"GRAPHEDITOR_API=",
+					"CONTENTBROWSER_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"USE_EMBREE=1",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"NETWORKREPLAYSTREAMING_API=",
+					"AUDIOMIXER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source",
+					"../../Source",
+					"../Build/Mac/UE4Editor/Inc/car",
+					"../../Source/car",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Brushes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Fonts",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Sound",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Textures",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Types",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Commands",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MetaData",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Images",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Deprecated",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Helpers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/AutoReimport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Commandlets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Dialogs",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/DragAndDrop",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Kismet2",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Layers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Toolkits",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public/Customizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetNodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetPins",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/ThirdParty/IntelEmbree/Embree2140/MacOSX/include",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Nodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Profiler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/Components",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/DSP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development Editor";
+		};
+		74246BD66C8ED38153F4524C /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PROGRAM=0",
+					"UE_EDITOR=1",
+					"HAS_METAL=1",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					"UNICODE",
+					"_UNICODE",
+					"__UNREAL__",
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"WITH_CEF3=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-car.dylib",
+					"UE_IS_ENGINE_MODULE=0",
+					"UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0",
+					"UE_PROJECT_NAME=car",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"CAR_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					"WITH_APEX_CLOTHING=1",
+					"WITH_CLOTH_COLLISION_DETECTION=1",
+					"WITH_PHYSICS_COOKING=1",
+					"WITH_NVCLOTH=1",
+					"WITH_RUNTIME_PHYSICS_COOKING=1",
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"WITH_UNREALPNG=1",
+					"WITH_UNREALJPEG=1",
+					"WITH_UNREALEXR=1",
+					"IMAGEWRAPPER_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"UTILITYSHADERS_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"GAMEPLAYTAGS_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCE_CONTROL_WITH_SLATE=1",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"WITH_SSL=0",
+					"WITH_LIBCURL=0",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"LOCALIZATION_API=",
+					"AUDIOEDITOR_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"USERFEEDBACK_API=",
+					"INTROTUTORIALS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"LANDSCAPE_API=",
+					"PROPERTYEDITOR_API=",
+					"ACTORPICKERMODE_API=",
+					"SCENEDEPTHPICKERMODE_API=",
+					"DETAILCUSTOMIZATIONS_API=",
+					"CLASSVIEWER_API=",
+					"GRAPHEDITOR_API=",
+					"CONTENTBROWSER_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"USE_EMBREE=1",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
+					"NETWORKREPLAYSTREAMING_API=",
+					"AUDIOMIXER_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source",
+					"../../Source",
+					"../Build/Mac/UE4Editor/Inc/car",
+					"../../Source/car",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Async",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Concurrency",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Containers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Delegates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/HAL",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Math",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Modules/Boilerplate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/ProfilingDebugging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Serialization/Csv",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core/Public/Mac",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Core",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Blueprint",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Misc",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/Templates",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/CoreUObject",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/AI/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Curves",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/EdGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Internationalization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Net",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/PacketHandlers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Performance",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Physics",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine/Public/VisualLogger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Engine",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Dom",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Policies",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Json",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Animation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Brushes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Fonts",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Logging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Rendering",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Sound",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Stats",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Textures",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Types",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SlateCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/InputCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Application",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Commands",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MetaData",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/MultiBox",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Styling",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Framework/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Colors",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Docking",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Images",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Input",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Layout",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Navigation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Notifications",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Text",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate/Public/Widgets/Views",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Slate",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ImageWrapper",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Deprecated",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging/Public/Helpers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Messaging",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RenderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/RHI",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ShaderCore",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UtilityShaders",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AssetRegistry",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/EngineSettings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SynthBenchmark",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Renderer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTags",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AIModule",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/GameplayTasks",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/DatabaseSupport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/PacketHandler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HardwareSurvey",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Programs/UnrealLightmass/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/AutoReimport",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Commandlets",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Dialogs",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/DragAndDrop",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Features",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Kismet2",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Layers",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/Toolkits",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BspMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/DirectoryWatcher",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Documentation",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Projects",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/SandboxFile",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/EditorStyle",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl/Public/Tests",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/SourceControl",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEdMessages",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/GameplayDebugger",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/BlueprintGraph",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Apple",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Online/HTTP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/UnrealAudio",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/FunctionalTesting",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController/Public/Interfaces",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/AutomationController",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization/Public/Serialization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Localization",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AudioEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/LevelEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/Settings",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UserFeedback",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/IntroTutorials",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/HeadMountedDisplay",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/VREditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/Landscape",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/PropertyEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ActorPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/SceneDepthPickerMode",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations/Public/Customizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/DetailCustomizations",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ClassViewer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetNodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor/Public/KismetPins",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/GraphEditor",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/ContentBrowser",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/CollectionManager",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/AddContentDialog",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/ThirdParty/IntelEmbree/Embree2140/MacOSX/include",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Developer/MeshUtilities",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Nodes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/Profiler",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/Kismet",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/ClothingSystemRuntimeInterface",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Classes",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/Components",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer/Public/DSP",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AudioMixer",
+					"/Users/Shared/Epic Games/UE_4.16/Engine/Source/Runtime/AudioMixer",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		6019FC17772B2A14AE8336F5 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "car-Mac-DebugGame";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "car";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Intermediate/Mac/car-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		398BAD7E4E1D260A990EAD35 /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.16/Engine/Binaries/Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame Editor";
+		};
+		07F21BF3882694E6FAC0B7AF /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "car";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "car";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Intermediate/Mac/car-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		DF86EE008856AA4C466D8869 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.16/Engine/Binaries/Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development Editor";
+		};
+		40D44E308BD5CBFBE68D96FF /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "car-Mac-Shipping";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "car";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Intermediate/Mac/car-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		D21103CB62D053270A557FED /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "car";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		431F22565929FB31295390EC /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "carEditor";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame Editor";
+		};
+		0E44FD8F3EC74B1A4EBBACAE /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "car";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		7047A9979BC383F86AE4A061 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				UE_BUILD_TARGET_NAME = "carEditor";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development Editor";
+		};
+		D046FC83B32D17EFDAF32276 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "car";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		6A42E70BF157290DFAA0E7B0 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "car-Mac-DebugGame";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "car";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Intermediate/Mac/car-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		C69E0FE10C0AD0E6EA29D166 /* "DebugGame Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.16/Engine/Binaries/Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame Editor";
+		};
+		6A1FB64C3C6325F32C16DA19 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "car";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "car";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Intermediate/Mac/car-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		6A8885644FC2B95B51806DB6 /* "Development Editor" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64";
+				SUPPORTED_PLATFORMS = "macosx";
+				PRODUCT_NAME = "UE4Editor";
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.16/Engine/Binaries/Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development Editor";
+		};
+		58AC8CDC101F0D753538237A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "car-Mac-Shipping";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "car";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/pakapol/projects/UE/car/Intermediate/Mac/car-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/pakapol/projects/UE/car/Intermediate/IOS/car.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.16/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9FD5B079AE913EFBE4E273 /* Build configuration list for PBXProject "car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F854792ACF3D560F4EA14531 /* "DebugGame" */,
+				3B7509B5182949751D8358BE /* "DebugGame Editor" */,
+				AAABBEDC7ADD162CC7D371F8 /* "Development" */,
+				EEDC5DC394EA6CE9F40ECD36 /* "Development Editor" */,
+				74246BD66C8ED38153F4524C /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		BB8C20C2C6007E126A25EF4E /* Build configuration list for PBXLegacyTarget "car_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21103CB62D053270A557FED /* "DebugGame" */,
+				431F22565929FB31295390EC /* "DebugGame Editor" */,
+				0E44FD8F3EC74B1A4EBBACAE /* "Development" */,
+				7047A9979BC383F86AE4A061 /* "Development Editor" */,
+				D046FC83B32D17EFDAF32276 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		476FDAF46EDCF21A194B7A5D /* Build configuration list for PBXNativeTarget "car" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6019FC17772B2A14AE8336F5 /* "DebugGame" */,
+				398BAD7E4E1D260A990EAD35 /* "DebugGame Editor" */,
+				07F21BF3882694E6FAC0B7AF /* "Development" */,
+				DF86EE008856AA4C466D8869 /* "Development Editor" */,
+				40D44E308BD5CBFBE68D96FF /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DF53A3671784F04BF55B7688 /* Build configuration list for PBXNativeTarget "car_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A42E70BF157290DFAA0E7B0 /* "DebugGame" */,
+				C69E0FE10C0AD0E6EA29D166 /* "DebugGame Editor" */,
+				6A1FB64C3C6325F32C16DA19 /* "Development" */,
+				6A8885644FC2B95B51806DB6 /* "Development Editor" */,
+				58AC8CDC101F0D753538237A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C2B69A0EF33AAECE280A5A /* Project object */;
+}
